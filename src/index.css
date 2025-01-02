@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-image: url("/bg.jpg")  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 50% ;
+}
+
+/* Background of the scrollbar track */
+
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: #111928;
+    border-radius: 6px;
+    
+}
+
+/* Scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer;
+}
+
+/* Scrollbar buttons (optional) */
+::-webkit-scrollbar-button {
+    display:none;
+}
+}
+
+.container{
+  /* margin-top: 5vh; */
+  width: 90vw;
+  height: 90vh;
+  background-color: rgba(17, 25, 40, 0.75);
+  backdrop-filter: blur(19px) saturate(180%);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+  display: flex;
+}
+
+
+.loading{
+  padding: 50px;
+  font-size: 36px;
+  border-radius: 10px;
+  background-color: rgba(17,25,40 , 0.9);
+
+}
